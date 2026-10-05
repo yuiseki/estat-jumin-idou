@@ -1,0 +1,9 @@
+data/raw/
+data/parquet/
+data/work/
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+*.log

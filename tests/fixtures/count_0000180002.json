@@ -1,0 +1,62 @@
+{
+ "GET_STATS_DATA": {
+  "RESULT": {
+   "STATUS": 0,
+   "ERROR_MSG": "正常に終了しました。",
+   "DATE": "2026-10-06T07:27:56.173+09:00"
+  },
+  "PARAMETER": {
+   "LANG": "J",
+   "STATS_DATA_ID": "0000180002",
+   "DATA_FORMAT": "J",
+   "START_POSITION": 1,
+   "METAGET_FLG": "Y",
+   "CNT_GET_FLG": "Y"
+  },
+  "STATISTICAL_DATA": {
+   "RESULT_INF": {
+    "TOTAL_NUMBER": 182
+   },
+   "TABLE_INF": {
+    "@id": "0000180002",
+    "STAT_NAME": {
+     "@code": "00200523",
+     "$": "住民基本台帳人口移動報告"
+    },
+    "GOV_ORG": {
+     "@code": "00200",
+     "$": "総務省"
+    },
+    "STATISTICS_NAME": "住民基本台帳人口移動報告 平成11年住民基本台帳人口移動報告",
+    "TITLE": {
+     "@no": "00201",
+     "$": "年計・月（１３）、男女別移動者総数（１４）、全国（１）"
+    },
+    "CYCLE": "-",
+    "SURVEY_DATE": "199901-199912",
+    "OPEN_DATE": "2007-10-03",
+    "SMALL_AREA": 0,
+    "COLLECT_AREA": "該当なし",
+    "MAIN_CATEGORY": {
+     "@code": "02",
+     "$": "人口・世帯"
+    },
+    "SUB_CATEGORY": {
+     "@code": "04",
+     "$": "人口移動"
+    },
+    "OVERALL_TOTAL_NUMBER": 182,
+    "UPDATED_DATE": "2023-10-31",
+    "STATISTICS_NAME_SPEC": {
+     "TABULATION_CATEGORY": "住民基本台帳人口移動報告",
+     "TABULATION_SUB_CATEGORY1": "平成11年住民基本台帳人口移動報告"
+    },
+    "DESCRIPTION": "",
+    "TITLE_SPEC": {
+     "TABLE_NAME": "年計・月（１３）、男女別移動者総数（１４）、全国（１）"
+    },
+    "releaseCount": 3
+   }
+  }
+ }
+}

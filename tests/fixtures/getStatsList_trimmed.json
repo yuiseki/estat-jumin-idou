@@ -1,0 +1,141 @@
+{
+ "GET_STATS_LIST": {
+  "RESULT": {
+   "STATUS": 0,
+   "ERROR_MSG": "正常に終了しました。",
+   "DATE": "2026-10-06T07:26:46.747+09:00"
+  },
+  "PARAMETER": {
+   "LANG": "J",
+   "STATS_CODE": "00200523",
+   "DATA_FORMAT": "J"
+  },
+  "DATALIST_INF": {
+   "NUMBER": 3,
+   "RESULT_INF": {
+    "FROM_NUMBER": 1,
+    "TO_NUMBER": 3
+   },
+   "TABLE_INF": [
+    {
+     "@id": "0003423635",
+     "STAT_NAME": {
+      "@code": "00200523",
+      "$": "住民基本台帳人口移動報告"
+     },
+     "GOV_ORG": {
+      "@code": "00200",
+      "$": "総務省"
+     },
+     "STATISTICS_NAME": "住民基本台帳人口移動報告 月報",
+     "TITLE": {
+      "@no": "090",
+      "$": "国外からの転入者数、国外への転出者数及び職権消除等 男女別国外からの転入者数，国外への転出者数及び職権消除等－全国，都道府県，21大都市 (総数，日本人，外国人)（2020年1月～）"
+     },
+     "CYCLE": "月次",
+     "SURVEY_DATE": 0,
+     "OPEN_DATE": "2026-09-29",
+     "SMALL_AREA": 0,
+     "COLLECT_AREA": "該当なし",
+     "MAIN_CATEGORY": {
+      "@code": "02",
+      "$": "人口・世帯"
+     },
+     "SUB_CATEGORY": {
+      "@code": "04",
+      "$": "人口移動"
+     },
+     "OVERALL_TOTAL_NUMBER": 141750,
+     "UPDATED_DATE": "2026-09-29",
+     "STATISTICS_NAME_SPEC": {
+      "TABULATION_CATEGORY": "住民基本台帳人口移動報告",
+      "TABULATION_SUB_CATEGORY1": "月報"
+     },
+     "DESCRIPTION": "",
+     "TITLE_SPEC": {
+      "TABLE_CATEGORY": "国外からの転入者数、国外への転出者数及び職権消除等",
+      "TABLE_NAME": "男女別国外からの転入者数，国外への転出者数及び職権消除等－全国，都道府県，21大都市 (総数，日本人，外国人)（2020年1月～）"
+     }
+    },
+    {
+     "@id": "0000180002",
+     "STAT_NAME": {
+      "@code": "00200523",
+      "$": "住民基本台帳人口移動報告"
+     },
+     "GOV_ORG": {
+      "@code": "00200",
+      "$": "総務省"
+     },
+     "STATISTICS_NAME": "住民基本台帳人口移動報告 平成11年住民基本台帳人口移動報告",
+     "TITLE": {
+      "@no": "00201",
+      "$": "年計・月（１３）、男女別移動者総数（１４）、全国（１）"
+     },
+     "CYCLE": "-",
+     "SURVEY_DATE": "199901-199912",
+     "OPEN_DATE": "2007-10-03",
+     "SMALL_AREA": 0,
+     "COLLECT_AREA": "該当なし",
+     "MAIN_CATEGORY": {
+      "@code": "02",
+      "$": "人口・世帯"
+     },
+     "SUB_CATEGORY": {
+      "@code": "04",
+      "$": "人口移動"
+     },
+     "OVERALL_TOTAL_NUMBER": 182,
+     "UPDATED_DATE": "2023-10-31",
+     "STATISTICS_NAME_SPEC": {
+      "TABULATION_CATEGORY": "住民基本台帳人口移動報告",
+      "TABULATION_SUB_CATEGORY1": "平成11年住民基本台帳人口移動報告"
+     },
+     "DESCRIPTION": "",
+     "TITLE_SPEC": {
+      "TABLE_NAME": "年計・月（１３）、男女別移動者総数（１４）、全国（１）"
+     }
+    },
+    {
+     "@id": "0003419945",
+     "STAT_NAME": {
+      "@code": "00200523",
+      "$": "住民基本台帳人口移動報告"
+     },
+     "GOV_ORG": {
+      "@code": "00200",
+      "$": "総務省"
+     },
+     "STATISTICS_NAME": "住民基本台帳人口移動報告 年報（実数）",
+     "TITLE": {
+      "@no": "11",
+      "$": "年齢（５歳階級），男女別他市区町村からの転入者数，他市区町村への転出者数，転入超過数－全国，都道府県，市区町村（移動者，日本人移動者，外国人移動者）（2020年～）"
+     },
+     "CYCLE": "年次",
+     "SURVEY_DATE": 0,
+     "OPEN_DATE": "2026-04-23",
+     "SMALL_AREA": 0,
+     "COLLECT_AREA": "該当なし",
+     "MAIN_CATEGORY": {
+      "@code": "02",
+      "$": "人口・世帯"
+     },
+     "SUB_CATEGORY": {
+      "@code": "04",
+      "$": "人口移動"
+     },
+     "OVERALL_TOTAL_NUMBER": 7513380,
+     "UPDATED_DATE": "2026-04-23",
+     "STATISTICS_NAME_SPEC": {
+      "TABULATION_CATEGORY": "住民基本台帳人口移動報告",
+      "TABULATION_SUB_CATEGORY1": "年報（実数）"
+     },
+     "DESCRIPTION": "",
+     "TITLE_SPEC": {
+      "TABLE_NAME": "年齢（５歳階級），男女別他市区町村からの転入者数，他市区町村への転出者数，転入超過数－全国，都道府県，市区町村（移動者，日本人移動者，外国人移動者）（2020年～）"
+     }
+    }
+   ]
+  }
+ }
+}
