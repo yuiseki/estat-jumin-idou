@@ -144,6 +144,10 @@ data/work/<version>/<statsDataId>/   pages of a table being fetched (removed whe
 scripts/estat_api.py                 parsing and planning (no network)
 scripts/01_download.py               download
 scripts/02_verify.py                 verify
+scripts/03_export_parquet.py         data/parquet/observations/<id>.parquet, tables.parquet
+scripts/04_verify_parquet.py         compare every Parquet row with the raw file
+scripts/05_card.py                   data/README.md (Hub card), data/LICENSE, data/provenance.yaml
+src/publish.py                       push to the Hub (dry run unless --push)
 tests/                               unit tests with trimmed real responses
 ```
 

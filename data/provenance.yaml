@@ -1,0 +1,31 @@
+# Where this data comes from and what was done to it.
+
+source:
+  name: 住民基本台帳人口移動報告 (statistics code 00200523), e-Stat API 3.0
+  publisher: 総務省統計局 (Statistics Bureau of Japan)
+  api: https://api.e-stat.go.jp/rest/3.0/app (getStatsList, getMetaInfo, getSimpleStatsData)
+  portal: https://www.e-stat.go.jp/stat-search/database?toukei=00200523
+  versions: none. The tables are overwritten in place; this dataset holds the newest run and follows upstream corrections.
+  licence:
+    applied: e-Stat terms of use (https://www.e-stat.go.jp/terms-of-use) and API terms of use (https://www.e-stat.go.jp/api/terms-of-use)
+    card: "license: other, license_name: e-stat-terms-of-use-pdl"
+    attribution_required: true
+    commercial_use: allowed
+    derivatives: allowed, with a note that the data are edited
+    api_credit: "このサービスは、政府統計総合窓口(e-Stat)のAPI機能を使用していますが、サービスの内容は国によって保証されたものではありません。"
+  citation: >-
+    「住民基本台帳人口移動報告」(総務省統計局), e-Stat, https://www.e-stat.go.jp/stat-search/database?toukei=00200523,
+    retrieved 2026-10-05.
+
+run:
+  date: 2026-10-05
+  started_at: "2026-10-05T22:31:37Z"
+  completed_at: "2026-10-06T16:40:39Z"
+  tables: 471
+  rows: 214274401
+  failures: 0
+
+processing:
+  - raw files kept as received (gzip of the VALUE section, header sections, metadata JSON)
+  - scripts/03_export_parquet.py maps each table's classifications to fixed slots and writes Parquet
+  - scripts/04_verify_parquet.py compares every row of every table with the raw file

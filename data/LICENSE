@@ -1,0 +1,13 @@
+The contents of data/ are 「住民基本台帳人口移動報告」(総務省統計局), obtained through the
+e-Stat API and edited (reshaped into Parquet; classifications mapped to slots).
+
+They are used under the e-Stat terms of use (https://www.e-stat.go.jp/terms-of-use), which follow the Government of Japan
+Standard Terms of Use (version 2.0) and are compatible with CC BY 4.0: reuse,
+redistribution and commercial use are allowed with attribution, and edited data must say
+so. They were not created by the Statistics Bureau in the form published here.
+
+Credit required by article 7 of the e-Stat API terms of use (https://www.e-stat.go.jp/api/terms-of-use):
+
+  このサービスは、政府統計総合窓口(e-Stat)のAPI機能を使用していますが、サービスの内容は国によって保証されたものではありません。
+
+The code of the repository this dataset was built from is MIT licensed.

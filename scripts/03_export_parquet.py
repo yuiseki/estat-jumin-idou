@@ -117,6 +117,7 @@ def main(argv=None) -> int:
     run = current_run()
     manifest = json.loads((run / "MANIFEST.json").read_text())
     con = duckdb.connect()
+    con.execute("set memory_limit='3GB'; set threads=4")
     rows_out = []
     for tid, t in sorted(manifest["tables"].items()):
         if a.only and tid not in a.only:
